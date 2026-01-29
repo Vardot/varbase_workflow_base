@@ -1,0 +1,27 @@
+name: Varbase Workflow Base
+description: A recipe to manage advanced editorial and publishing workflow with content moderation. Build on top of the basic Workflow integration in Drupal CMS.
+type: Varbase Workflow
+install:
+  - workflows
+  - content_moderation
+  - scheduler
+  - scheduler_content_moderation_integration
+  - admin_audit_trail_workflows
+config:
+  import:
+    workflows: '*'
+    content_moderation: '*'
+    scheduler: '*'
+    scheduler_content_moderation_integration: '*'
+  actions:
+    user.role.content_editor:
+      grantPermissions:
+        - 'use varbase_editorial_workflow transition archive'
+        - 'use varbase_editorial_workflow transition create_new_draft'
+        - 'use varbase_editorial_workflow transition publish'
+        - 'use varbase_editorial_workflow transition archived_published'
+        - 'use varbase_editorial_workflow transition review'
+        - 'view any unpublished content'
+        - 'view latest version'
+        - 'schedule publishing of nodes'
+        - 'view scheduled content'

@@ -16,6 +16,51 @@ config:
   actions:
     user.role.content_editor:
       grantPermissions:
+        - 'use basic_editorial transition create_new_draft'
+        - 'use basic_editorial transition publish'
+        - 'use basic_editorial transition unpublish'
+        - 'use varbase_editorial_workflow transition archive'
+        - 'use varbase_editorial_workflow transition create_new_draft'
+        - 'use varbase_editorial_workflow transition publish'
+        - 'use varbase_editorial_workflow transition archived_published'
+        - 'use varbase_editorial_workflow transition review'
+        - 'view any unpublished content'
+        - 'view latest version'
+        - 'schedule publishing of nodes'
+        - 'view scheduled content'
+    user.role.content_admin:
+      grantPermissions:
+        - 'use basic_editorial transition create_new_draft'
+        - 'use basic_editorial transition publish'
+        - 'use basic_editorial transition unpublish'
+        - 'use varbase_editorial_workflow transition archive'
+        - 'use varbase_editorial_workflow transition create_new_draft'
+        - 'use varbase_editorial_workflow transition publish'
+        - 'use varbase_editorial_workflow transition archived_published'
+        - 'use varbase_editorial_workflow transition review'
+        - 'view any unpublished content'
+        - 'view latest version'
+        - 'schedule publishing of nodes'
+        - 'view scheduled content'
+    user.role.seo_admin:
+      grantPermissions:
+        - 'use basic_editorial transition create_new_draft'
+        - 'use basic_editorial transition publish'
+        - 'use basic_editorial transition unpublish'
+        - 'use varbase_editorial_workflow transition archive'
+        - 'use varbase_editorial_workflow transition create_new_draft'
+        - 'use varbase_editorial_workflow transition publish'
+        - 'use varbase_editorial_workflow transition archived_published'
+        - 'use varbase_editorial_workflow transition review'
+        - 'view any unpublished content'
+        - 'view latest version'
+        - 'schedule publishing of nodes'
+        - 'view scheduled content'
+    user.role.site_admin:
+      grantPermissions:
+        - 'use basic_editorial transition create_new_draft'
+        - 'use basic_editorial transition publish'
+        - 'use basic_editorial transition unpublish'
         - 'use varbase_editorial_workflow transition archive'
         - 'use varbase_editorial_workflow transition create_new_draft'
         - 'use varbase_editorial_workflow transition publish'

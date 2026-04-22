@@ -60,6 +60,7 @@ config:
         - 'view scheduled content'
     user.role.site_admin:
       grantPermissions:
+        - 'access tokens overview'
         - 'use basic_editorial transition create_new_draft'
         - 'use basic_editorial transition publish'
         - 'use basic_editorial transition unpublish'

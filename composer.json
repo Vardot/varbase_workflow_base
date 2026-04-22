@@ -18,6 +18,7 @@
   },
   "require": {
     "drupal/core": "~11.3.0",
+    "drupal/access_unpublished": "~1",
     "drupal/scheduler": "~2",
     "drupal/scheduler_content_moderation_integration": "~3",
     "drupal/content_moderation_notifications": "~3",

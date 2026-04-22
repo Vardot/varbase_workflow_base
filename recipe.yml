@@ -4,6 +4,7 @@ type: Varbase Workflow
 install:
   - workflows
   - content_moderation
+  - access_unpublished
   - scheduler
   - scheduler_content_moderation_integration
   - admin_audit_trail_workflows
@@ -11,6 +12,7 @@ config:
   import:
     workflows: '*'
     content_moderation: '*'
+    access_unpublished: '*'
     scheduler: '*'
     scheduler_content_moderation_integration: '*'
   actions:

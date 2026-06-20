@@ -1,3 +1,5 @@
+[![Varbase](https://raw.githubusercontent.com/Vardot/varbase/11.0.x/images/varbase-logo.png)](https://www.drupal.org/project/varbase)
+
 # Varbase Workflow Base
 
 A recipe to manage advanced editorial and publishing workflow with content moderation. Build on top of the basic Workflow integration in Drupal CMS.

@@ -17,7 +17,7 @@
     "source": "http://cgit.drupalcode.org/varbase_workflow_base"
   },
   "require": {
-    "drupal/core": "~11.3.0",
+    "drupal/core": "~11.4.0",
     "drupal/access_unpublished": "~1",
     "drupal/scheduler": "~2",
     "drupal/scheduler_content_moderation_integration": "~3",

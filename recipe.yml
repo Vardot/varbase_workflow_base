@@ -9,6 +9,7 @@ install:
   - scheduler_content_moderation_integration
   - admin_audit_trail_workflows
 config:
+  strict: false
   import:
     workflows: '*'
     content_moderation: '*'

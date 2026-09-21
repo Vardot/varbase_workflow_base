@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-09-21
+### Fixed
+- Turn off strict config handling (`strict: false`) so the recipe applies on a site that already carries workflow configuration.
+- Update the version badge to `1.0.1` in `README.md`.
+
 ## [1.0.0] - 2026-09-06
 ### Changed
 - Release the recipe with the stable Varbase 11.0.0 suite. No functional changes since 1.0.0-rc1.
@@ -31,7 +36,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Workflow Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0-rc1...1.0.0
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0-beta1...1.0.0-rc1
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0-alpha2...1.0.0-beta1

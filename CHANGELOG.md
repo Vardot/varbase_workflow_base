@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-11-25
+### Changed
+- Use caret constraints with ^11.4 || ^12.0 to allow Drupal 11.5 and Drupal 12 in Varbase Workflow Base recipe ([#3624766](https://git.drupalcode.org/project/varbase_workflow_base/-/work_items/3624766)).
+- Update the version badge to `1.0.2` in `README.md`.
+
 ## [1.0.1] - 2026-09-21
 ### Fixed
 - Turn off strict config handling (`strict: false`) so the recipe applies on a site that already carries workflow configuration.
@@ -36,7 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Workflow Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.1...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.2...1.0.x
+[1.0.2]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.1...1.0.2
 [1.0.1]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0-rc1...1.0.0
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_workflow_base/-/compare/1.0.0-beta1...1.0.0-rc1
